@@ -1,0 +1,12 @@
+# Environment variables (NOOIT committen)
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
