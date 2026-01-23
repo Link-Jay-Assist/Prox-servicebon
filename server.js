@@ -14,7 +14,7 @@ app.use(cors({ origin: process.env.ALLOW_ORIGIN?.split(",") ?? "*" }));
 const {
   PORT = 3000,
   API_SECRET,
-  FM_BASE,
+  FM_HOST,
   FM_DB,
   FM_LAYOUT,
   FM_USER,
